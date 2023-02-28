@@ -1,0 +1,6 @@
+repositories:
+  - name: Ignis
+    vsc: git
+    repo: https://github.com/ZyranDev/ignis
+    branch: master
+    redirect: https://discord.gg/q8gh7YFN7s
