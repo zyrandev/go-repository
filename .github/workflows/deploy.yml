@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-go@v3
+        with:
+          go-version: 1.20.x
+
+      - uses: actions/checkout@v2
+
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+
+      - name: Build and run
+        run: |
+          cd ./ignis
+          go mod tidy
+          go build -o ../ignis-cli ./pkg/cmd
+          cd ..
+          ./ignis-cli --index=ignis/templates/index.html --repo=ignis/templates/repository.html
+          tree
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages
+          folder: build
