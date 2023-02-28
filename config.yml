@@ -1,3 +1,4 @@
+host: go.zyran.dev
 repositories:
   - name: Ignis
     vsc: git
