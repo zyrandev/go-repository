@@ -5,3 +5,8 @@ repositories:
     repo: https://github.com/ZyranDev/ignis
     branch: master
     redirect: https://discord.gg/q8gh7YFN7s
+  - name: Servers
+    vsc: git
+    repo: https://github.com/ZyranDev/servers
+    branch: master
+    redirect: https://discord.gg/q8gh7YFN7s
