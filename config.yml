@@ -5,8 +5,8 @@ repositories:
     repo: https://github.com/ZyranDev/ignis
     branch: master
     redirect: https://discord.gg/q8gh7YFN7s
-  - name: Servers
+  - name: Filter
     vsc: git
-    repo: https://github.com/ZyranDev/servers
+    repo: https://github.com/ZyranDev/filter
     branch: master
     redirect: https://discord.gg/q8gh7YFN7s
