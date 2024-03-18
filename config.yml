@@ -12,6 +12,6 @@ repositories:
     redirect: https://discord.gg/q8gh7YFN7s
   - name: SQL Query
     vsc: git
-    repo: https://github.com/zyrandev/sql-query
+    repo: https://github.com/zyrandev/sqlquery
     branch: main
     redirect: https://discord.gg/q8gh7YFN7s
