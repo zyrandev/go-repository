@@ -10,7 +10,7 @@ repositories:
     repo: https://github.com/ZyranDev/filter
     branch: master
     redirect: https://discord.gg/q8gh7YFN7s
-  - name: SQL Query
+  - name: SQLQuery
     vsc: git
     repo: https://github.com/zyrandev/sqlquery
     branch: main
