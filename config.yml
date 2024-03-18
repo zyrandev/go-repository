@@ -10,8 +10,8 @@ repositories:
     repo: https://github.com/ZyranDev/filter
     branch: master
     redirect: https://discord.gg/q8gh7YFN7s
-  - name: Grocery
+  - name: SQL Query
     vsc: git
-    repo: https://github.com/ZyranDev/grocery
+    repo: https://github.com/zyrandev/sql-query
     branch: main
     redirect: https://discord.gg/q8gh7YFN7s
